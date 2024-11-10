@@ -9,7 +9,7 @@ services:
 
 
   gateway-service:
-    image: saidaloshamsiyev1/gateway-service1:4
+    image: saidaloshamsiyev1/gateway-service1:6
     ports:
       - "8080:8080"
     environment:
@@ -21,7 +21,7 @@ services:
 
 
   auth-service:
-    image: saidaloshamsiyev1/auth-service1:5
+    image: saidaloshamsiyev1/auth-service1:6
     ports:
       - "8084:8084"
     environment:

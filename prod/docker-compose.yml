@@ -93,7 +93,7 @@ services:
 
 
   video-service:
-    image: saidaloshamsiyev1/video-service1:1
+    image: saidaloshamsiyev1/video-service1:2
     ports:
       - "8086:8086"
     environment:

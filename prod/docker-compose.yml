@@ -57,7 +57,7 @@ services:
 
 
   channel-service:
-    image: saidaloshamsiyev1/channel-service1:2
+    image: saidaloshamsiyev1/channel-service1:3
     ports:
       - "8085:8085"
     environment:
